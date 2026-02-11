@@ -1,11 +1,5 @@
 # Task 2: Automotive Warranty Claims - Advanced EDA & Text Mining Report
-## Comprehensive Data Analysis, Root Cause Analysis & Strategic Recommendations
 
-**Report Date:** February 10, 2026  
-**Dataset:** Automotive Warranty Claims - Radio/Infotainment Systems  
-**Total Cases Analyzed:** 1,001 warranty events
-
----
 
 ## Executive Summary
 
@@ -402,10 +396,4 @@ Key findings indicate that **targeted engineering investments totaling $2.65M ca
 
 The analysis demonstrates that **advanced text mining and clustering techniques successfully identified root causes** that were not apparent from standard categorical analysis alone, validating the value of NLP-based approaches in quality improvement initiatives.
 
----
 
-**Report Prepared By:** HanuAi Analytics Team  
-**Data Period:** August 2019 - March 2021  
-**Dataset Size:** 1,001 warranty events  
-**Methodology:** Advanced EDA, Text Mining, K-Means Clustering, LDA Topic Modeling  
-**Recommendation:** Implement critical actions within 90 days to realize savings
