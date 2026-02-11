@@ -1,11 +1,6 @@
 # TASK 1: WEB SCRAPING & SENTIMENT ANALYSIS
 ## Executive Report for BestBuy Canada Product Reviews
 
-**Report Date:** February 10, 2026  
-**Analysis Scope:** Product Reviews from BestBuy Canada (www.bestbuy.ca)  
-**Methodology:** Web Scraping + NLP Sentiment Analysis + Clustering  
-**Prepared By:** Data Analytics Team, HanuAI
-
 ---
 
 ## Executive Summary
@@ -77,10 +72,10 @@ We systematically applied filters to extract diverse perspectives:
 **Problem:** BestBuy.ca may block IPs making too many requests
 
 **Solutions Implemented:**
-- ✅ **Random Delays:** 2-5 second delays between requests
-- ✅ **User-Agent Rotation:** Randomized browser identifiers for each request
-- ✅ **Backoff Strategy:** Exponential retry delays (5s, 10s, 15s)
-- ✅ **Session Management:** Reusable session tokens to minimize fresh requests
+- - **Random Delays:** 2-5 second delays between requests
+- - **User-Agent Rotation:** Randomized browser identifiers for each request
+- - **Backoff Strategy:** Exponential retry delays (5s, 10s, 15s)
+- - **Session Management:** Reusable session tokens to minimize fresh requests
 
 **Proxy Solution (If Needed):**
 ```
@@ -144,11 +139,11 @@ with open('session_cookies.pkl', 'rb') as f:
 ### Challenge 5: Monitoring & Error Handling
 
 **Implemented Mechanisms:**
-- ✅ Comprehensive logging at each step
-- ✅ Try-except blocks around network operations
-- ✅ Retry mechanism with exponential backoff
-- ✅ Checkpointing (save progress every 10 reviews)
-- ✅ HTTP status code monitoring (403, 429 detection)
+- - Comprehensive logging at each step
+- - Try-except blocks around network operations
+- - Retry mechanism with exponential backoff
+- - Checkpointing (save progress every 10 reviews)
+- - HTTP status code monitoring (403, 429 detection)
 
 ---
 
@@ -217,7 +212,7 @@ Beyond sentiment scores, we extracted **key drivers** behind each sentiment:
 
 | Review | Text | Sentiment | Drivers | Rating |
 |--------|------|-----------|---------|--------|
-| R001 | "Excellent quality and beautiful design!" | ✅ Positive | [Good Quality, Good Design] | 5/5 |
+| R001 | "Excellent quality and beautiful design!" | - Positive | [Good Quality, Good Design] | 5/5 |
 | R002 | "Works ok but overpriced for what you get" | ⚠️ Neutral | [Poor Value, Satisfactory] | 3/5 |
 | R003 | "Broke after one week, waste of money" | ❌ Negative | [Poor Quality, Poor Value] | 1/5 |
 
@@ -461,14 +456,14 @@ We applied K-Means clustering to group reviews by complaint/praise type:
 
 ### Data Quality Assurance
 
-✅ **Checks Performed:**
+- **Checks Performed:**
 - Missing value analysis and imputation
 - Duplicate review removal (exact matches)
 - Date format standardization (YYYY-MM-DD)
 - Rating validation (1-5 range enforcement)
 - Text cleaning (HTML entity removal, whitespace normalization)
 
-✅ **Data Completeness:** 99.2%
+- **Data Completeness:** 99.2%
 
 ### Sentiment Analysis Accuracy
 
@@ -520,9 +515,9 @@ All code is documented with:
 BestBuy Canada product reviews reveal a **mixed satisfaction landscape** with clear opportunities for improvement:
 
 **Strengths:**
-✅ 62.5% positive sentiment rate  
-✅ Design and aesthetics highly praised (38% of positive reviews)  
-✅ Strong performance when quality is good (4.8/5 average)
+- 62.5% positive sentiment rate  
+- Design and aesthetics highly praised (38% of positive reviews)  
+- Strong performance when quality is good (4.8/5 average)
 
 **Challenges:**
 ❌ Quality issues dominate negative reviews (67%)  
@@ -567,3 +562,4 @@ See `ANTI-SCRAPING_GUIDE.txt` for comprehensive technical guidance
 ---
 
 *For questions or additional analysis, please contact the Data Analytics Team.*
+
