@@ -1,0 +1,58 @@
+{
+  "overall_metrics": {
+    "avg_rating": 3.2857142857142856,
+    "positive_percentage": 96.42857142857143,
+    "negative_percentage": 1.7857142857142856,
+    "total_reviews": 56
+  },
+  "positive_drivers": {
+    "General Feedback": 52,
+    "High Performance": 1,
+    "Good Value": 1,
+    "Recommended": 1,
+    "Not Recommended": 1
+  },
+  "negative_drivers": {
+    "General Feedback": 1
+  },
+  "cluster_analysis": {
+    "cluster_0": {
+      "avg_rating": 2.0,
+      "negative_pct": 50.0,
+      "top_issues": {
+        "General Feedback": 2
+      }
+    },
+    "cluster_1": {
+      "avg_rating": 3.32,
+      "negative_pct": 0.0,
+      "top_issues": {
+        "General Feedback": 50
+      }
+    },
+    "cluster_2": {
+      "avg_rating": 3.3333333333333335,
+      "negative_pct": 0.0,
+      "top_issues": {
+        "General Feedback": 2,
+        "Recommended": 1,
+        "Not Recommended": 1
+      }
+    },
+    "cluster_3": {
+      "avg_rating": 4.0,
+      "negative_pct": 0.0,
+      "top_issues": {
+        "High Performance": 1,
+        "Good Value": 1
+      }
+    }
+  },
+  "recommendations": [
+    "\u2713 Product quality is acceptable. Continue monitoring quality standards.",
+    "\u2713 Customer service satisfaction is good. Maintain current service levels.",
+    "\u2713 Customers perceive good value. Pricing strategy appears optimized.",
+    "\u2713 Product usability is satisfactory. Users find it easy to use.",
+    "\u2713 Product performance meets customer expectations."
+  ]
+}
